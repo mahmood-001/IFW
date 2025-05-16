@@ -169,9 +169,29 @@ html {
 
 /* Footer */
 footer {
-  text-align: center;
+  background-color: #f8f9fa;
   padding: 20px;
-  color: #555;
+  text-align: center;
+}
+
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  color: #4267b2; /* Facebook blue */
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #007bff; /* Lighter blue on hover */
+}
+
+footer .social-icons a:first-child {
+  color: #e1306c; /* Instagram pink */
 }
 
 /* Mobile Responsive */
